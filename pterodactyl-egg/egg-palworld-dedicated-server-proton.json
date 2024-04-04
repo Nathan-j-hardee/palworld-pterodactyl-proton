@@ -10,7 +10,7 @@
     "description": "Palworld Dedicated Server for Windows using Proton-GE",
     "features": null,
     "docker_images": {
-        "ghcr.io\/s3tupw1zard\/palworld-pterodactyl-proton:latest": "ghcr.io\/s3tupw1zard\/palworld-pterodactyl-proton:latest"
+        "ghcr.io\/s3tupw1zard\/palworld-pterodactyl-proton:latest": "ghcr.io\/Nathan-j-hardee\/palworld-pterodactyl-proton:latest"
     },
     "file_denylist": [],
     "startup": ".\/PalServer.sh -port={{SERVER_PORT}} -players={{MAX_PLAYERS}} -log -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS",
